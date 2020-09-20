@@ -4,7 +4,9 @@ In this implementation one or more thread-producers generate random numbers and 
 **The output of the program are two txt files**
 
 producers_in.txt: The producers record a line (Producer id: -27) for every number they push in the queue.
+
 consumers_out.txt: The consumers record a line (Consumer id: -27) for every number they extract.
+
 Every consumer and producer print the number they generated/removed.
 
 
