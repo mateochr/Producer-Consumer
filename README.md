@@ -7,7 +7,7 @@ producers_in.txt: The producers record a line (Producer id: -27) for every numbe
 
 consumers_out.txt: The consumers record a line (Consumer id: -27) for every number they extract.
 
-Every consumer and producer print the number they generated/removed.
+Additionally every consumer and producer print the number they inserted/removed.
 
 
 ## HowTo
