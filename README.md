@@ -15,6 +15,6 @@ The input must be five variables or the program will not run (e.g. 3 4 24 15 3).
 
 **N producers and M consumers**
 
-`gcc proco2.c proco-common.c -o proco`
+`gcc procoMN.c proco-common.c -o proco`
 
 `proco 4 2 20 10 1`
