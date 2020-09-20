@@ -23,7 +23,9 @@ Definition of functions that ensure the proper operation of the circular buffer,
 
 ## HowTo
 The input must be five variables or the program will not run (e.g. 3 4 24 15 3). 3 producers, 4 consumers, 24 is the quantity of the random numbers, 15 is capacity of the circular buffer and 3 wokrs as a seed for the random number generator.
+
 Open a cmd in the folder that contains the files and type the commands below.
+
 **N producers and M consumers**
 
 `gcc procoMN.c proco-common.c -o proco`
