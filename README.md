@@ -1,5 +1,5 @@
 # Producer-Consumer
-In this implementation one or more thread-producers generate random numbers and insert them at the tail of the circular buffer. Meanwhile one more thread-consumers extract the random numbers from the other end of the circular buffer. **Mutual exclusion** exists, meaning there is no inserting or/and exctracting from the same position of the circular buffer at the same time. The producers are prevented while the queue is full and the consumers while its empty (**Conditional waiting**). Each producer and consumer have an id given to them by the basic thread while creating them, the id is a serial number starting from 1.
+In this implementation one or more thread-producers generate random numbers and insert them at the tail of the circular buffer. Meanwhile one or more thread-consumers extract the random numbers from the other end of the circular buffer. **Mutual exclusion** exists, meaning there is no inserting or/and exctracting from the same position of the circular buffer at the same time. The producers are prevented while the queue is full and the consumers while its empty (**Conditional waiting**). Each producer and consumer have an id given to them by the basic thread while creating them, the id is a serial number starting from 1.
 
 **The output of the program are two txt files**
 
