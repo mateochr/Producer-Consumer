@@ -1,5 +1,5 @@
 # Producer-Consumer
-Producer-Consumer system that uses POSIX threads. In this implementation one or more thread-producers generate random numbers
+In this implementation one or more thread-producers generate random numbers
 and insert them at the tail of the circular buffer. Meanwhile one more thread-consumers extract the random numbers from the other end of the circular buffer.
 **Mutual exclusion** exists, meaning there is no inserting or/and exctracting from the same position of the circular buffer. Also both producers and consumers
 are prevented from adding/removing in/from the circular buffer while it's full/empty (**Conditional waiting**).
