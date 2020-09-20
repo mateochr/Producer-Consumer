@@ -26,8 +26,6 @@ The input must be five variables or the program will not run (e.g. 3 4 24 15 3).
 
 Open a cmd in the folder that contains the files and type the commands below.
 
-**N producers and M consumers**
-
 `gcc procoMN.c proco-common.c -o proco`
 
 `proco 4 2 20 10 1`
