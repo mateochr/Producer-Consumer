@@ -9,6 +9,17 @@ consumers_out.txt: The consumers record a line (Consumer id: -27) for every numb
 
 Additionally every consumer and producer print the number they inserted/removed.
 
+### proco.h
+
+Header file with global variables and declarations of functions.
+
+### procoMN.c
+
+The main function that checks if the input is valid and creates the producer/consumer threads.
+
+### proco-common.c
+
+Definition of functions that ensure the proper operation of the circular buffer, along with lock mutexes and conditionals to provide thread synchronization.
 
 ## HowTo
 The input must be five variables or the program will not run (e.g. 3 4 24 15 3). 3 producers, 4 consumers, 24 is the quantity of the random numbers, 15 is capacity of the circular buffer and 3 wokrs as a seed for the random number generator.
